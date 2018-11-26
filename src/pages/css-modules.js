@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Container from "../components/container"
 import styles from "./css-modules.module.css"
 
@@ -16,9 +15,10 @@ const User = props => (
 
 export default () => (
   <Container>
-    <Link to="/">HOME</Link>&nbsp;<Link to="/about/">ABOUT</Link>
-    <h1>About CSS Modules</h1>
+
+    <h1>CSS Modules</h1>
     <p>CSS Modules are es nice</p>
+
     <User
       username="Jane Doe"
       avatar="https://source.unsplash.com/-djRG1vB1pw/150x150"
