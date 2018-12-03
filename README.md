@@ -10,7 +10,6 @@ Or [view the live demo here](https://gatsby-starter-hello-world-demo.netlify.com
 
 ## Running in development
 `gatsby develop`
-
-
-surge public/
-george-gatsbyTest.surge.sh
+## To publish
+1. `gatsby build`
+2. `surge public/ george-gatsbyTest.surge.sh`
